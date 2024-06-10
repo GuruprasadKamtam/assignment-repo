@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background-color: #CDE8E5;
+    
+
+}
+
+.parent{
+
+    height: 150px;
+    width: 350px;
+    border: 10px solid #6FDCE3;
+    margin: auto;
+    border-radius: 15px;
+    text-align: center;
+    background-color: whitesmoke;
+    box-shadow: 10px 10px yellow;
+    position: relative;
+    top: 20px;
+}
+
+.parent:hover{
+    color: whitesmoke;
+    background: linear-gradient(to bottom left, #33ccff 0%, #ff99cc 100%);
+}
+#parent2{
+    border: 10px solid blue;
+    height: 900px;
+    margin-top: 50px;
+
+}
+
+.base-child{
+    
+    border: 2px solid black;
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: 10px 10px rgb(205, 110, 126);
+    
+    position: absolute;
+    margin: 20px;
+    text-shadow: 2px 2px 2px grey;
+    
+    font-size: 30px;
+    background: linear-gradient(to bottom left, #33ccff 0%, #ff99cc 100%);
+
+    
+}
+.base-child:hover{
+    
+    color: whitesmoke
+}
+#child1{
+    
+}
+
+#child2{
+    /* border: 2px solid black;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: 10px 10px rgb(205, 110, 126); */
+    float: right;
+    position: relative;
+
+
+
+}
+img{
+    margin-top: 10px;
+    border: 2px solid black;
+}
+#child3{
+    border: 2px solid tomato;
+    width: 600px;
+    height: 50px;
+    border-radius: 30px;
+    position:fixed;
+    left: 500px;
+    background-color: #e4e41a;
+    top: 680px;
+    left: 450px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    z-index: 1;
+}
+
+h3{
+    font-size: 22px;
+}
+input{
+    width: 230px;
+    height: 20px;
+    text-align: center;
+    text-shadow: 1px 1px black;
+}
+button{
+    width: 100px;
+    height: 20px;
+    box-shadow: 1px 1px 1px black;
+}
+
+#child4{
+    /* border: 2px solid black;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: 10px 10px rgb(205, 110, 126);
+    position: absolute;
+    display: inline-block; */
+    /* margin: 20px;
+    text-shadow: 2px 2px 2px grey;
+    font-size: 22px; */
+    top: 700px;
+    left: 10px;
+    
+    text-transform: uppercase;
+    text-align: left;
+}
+#child5{
+    /* border: 2px solid black;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: 10px 10px rgb(205, 110, 126); */
+    float: right;
+    position: relative;
+    /* margin: 20px;
+    text-shadow: 2px 2px 2px grey; */
+    top: 485px;
+    left: 290px;
+    /* background-color: #f3e6d7; */
+}
+h3{
+    margin: 5px;
+}
+#rate{
+    margin-top: 10px;
+}
+
+button{
+    background-color: orangered;
+    border-radius: 2px;
+    margin: 20px;
+}
+
+.parent3{
+    position: absolute;
+    margin: auto;
+    border: 10px solid rgb(135, 135, 238);
+    width: 1200px;
+    height: 700px;
+    margin-left: 160px ;
+    top: 1200px;
+    text-shadow: 1px 1px 10px black;
+    color: white;
+    
+    /* background: linear-gradient(#e66465, #9198e5); */
+}
+.parent3 h3{
+    margin-left: 400px;  
+    
+}
+#welcome{
+    font-size: 40px;
+    text-shadow: 1px 1px 10px black;
+}
+
+.child30{
+    border: 2px solid red;
+    box-shadow: 1px 10px 10px red;
+    font-size: 20px;
+    position: relative;
+    float: left;
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    background: linear-gradient(to top right, rgb(122,122,236),rgb(106,248,106));
+}
+
+.child30 p{
+    margin-top: 20px;
+}
+.child31{
+    /* position: relative;
+    float: left;
+    width: 500px;
+    height: 300px;
+    border: 2px solid red; */
+    left: 70px;
+    /* box-shadow: 1px 10px 10px red;   
+    font-size: 20px; */
+}
+.child30 h3{
+    margin-left: 20px;
+}
+
+.child32{
+    /* position: relative; */
+    float: right;
+    /* width: 500px;
+    height: 300px; */
+    right: 40px;
+    /* border: 2px solid red;
+    box-shadow: 1px 10px 10px red;
+    font-size: 20px; */
+}
+
+
+
+.child33{
+    border: 1px solid black;
+    position: relative;
+    width: 1000px;
+    height: 200px;
+    clear: both;
+    left: 100px;
+    top: 40px;
+    border: 2px solid red;
+    box-shadow: 1px 10px 10px red;
+    font-size: 20px;
+}
