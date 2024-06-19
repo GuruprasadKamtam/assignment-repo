@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h3{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-variant: small-caps;
+}
+.hero-section{
+    background-image: url('./assets/hero.jpg');
+    height: 800px;
+}
+#hero-section{
+    margin-top: 200px;
+    color: white;
+}
+ul li{
+    list-style-type: none;
+}
+li img{
+    height: 10px;
+    width: 60px;
+}
+
+ul li img:hover{
+    animation-name: rotateq;
+    animation-duration: 0.4s;
+    animation-iteration-count: infinite;
+    cursor: pointer;
+}
+@keyframes rotateq{
+    0%{
+  
+        transform: rotate(0deg);   
+    }
+    100%{
+       
+        transform: rotate(360deg);
+    }
+    
+}
+
+.skills{
+    margin: 150px 0 120px 0;
+}
+
+ /* h3::after{
+     content: " ";
+     position: absolute;
+     display: block; 
+    width: 100px;
+    height: 3px;
+    background-color: blue;
+    left: 0;
+    bottom: 0;
+} */
+
+.heading{
+    animation: left-right 2s ease-in ;
+}
+@keyframes left-right {
+    from{
+        transform: translateX(-600px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+    
+}
+
+.portfolio{
+    animation: flip 1s ease-in-out;
+}
+
+@keyframes flip {
+    0%{
+        transform: rotateX(90deg);
+    }
+    100%{
+        transform: rotateX(0deg);
+    }
+    
+}
