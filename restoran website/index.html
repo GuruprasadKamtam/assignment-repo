@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Restoran</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"/>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+
+
+      <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top" data-bs-theme="dark">
+      <div class="container">
+        <i class="fa fa-utensils fs-2 me-2 text-white"></i>
+        <a class="navbar-brand text-primary fs-1 fw-bold" href="#">Restoran</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto gap-2">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#menu">Menu</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Pages
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Booking</a></li>
+                <li><a class="dropdown-item" href="#">Our Team</a></li>
+                <li><a class="dropdown-item" href="#">Testimonial</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#chefs">Chefs</a>
+            </li>
+            <li class="nav-item">
+              <a class="btn btn-primary" href="#book-a-table" id="table">Book a Table</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container marketing mt-5" id="home">
+      <div class="row featurette align-items-center">
+        <div class="col-md-7">
+          <h2 class="featurette-heading fw-normal lh-1 display-1 fw-bold hero-heading">
+            Enjoy Our Delicious Meal.
+          </h2>
+          <p class="lead">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat
+            recusandae nobis quod esse quos illum sequi, similique asperiores
+            perferendis nisi enim ipsam neque nulla ea veritatis molestiae
+            placeat facere adipisci.
+          </p>
+          <button class="btn btn-outline-warning mb-3">Book A Table</button>
+        </div>
+        <div class="col-md-5 hero-img">
+          <img
+            src="./assets/hero.png"
+            alt="hero section image"
+            class="img-fluid"
+          />
+        </div>
+      </div>
+    </div>
+    <!-- Hero section ends -->
+    
+    <!-- About section goes here -->
+    <section class="bg-dark py-4 mt-5">
+    <div class="container marketing my-5 text-white" id="about">
+      <div class="row featurette align-items-center">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading fw-normal lh-1 text-center border-about">
+            About Us
+          </h2>
+          <h1 class="featurette-heading fw-normal lh-1 text-center">
+            Welcome to Restoran
+          </h1>
+          <p class="lead fst-italic">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit quidem
+            ullam inventore sequi corrupti neque nobis distinctio iusto natus?
+            Ipsa minima eveniet impedit. Aspernatur numquam iure libero
+            recusandae aliquam! Obcaecati deserunt corrupti vel! Suscipit,
+            consectetur culpa? Sint, sapiente eveniet vel saepe minima maiores
+            sit, quos repellat minus ex, aperiam explicabo?
+          </p>
+          <button class="btn btn-outline-warning mb-4">Read More</button>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <img src="./assets/about1.jpg" alt="" class="w-100"/>
+        </div>
+      </div>
+    </div>
+</section>
+    <!-- About section ends here -->
+
+    <!-- services section starts here -->
+    <section class="services" id="services">
+        <div class="container mb-5">
+            <h2 class="text-center mt-3 pt-5">Services</h2>
+            <p class="mb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit quidem ullam inventore sequi corrupti neque nobis distinctio iusto natus? Ipsa minima eveniet impedit. Aspernatur numquam iure libero recusandae aliquam! Obcaecati deserunt corrupti vel! Suscipit, consectetur culpa? Sint, sapiente eveniet vel saepe minima maiores sit, quos repellat minus ex, aperiam explicabo?</p>
+            <div class="grid">
+                <div class="row">
+                    <div class="col-lg-3 mt-3">
+                        <div class="card text-center shadow-lg service-card" id="guru1">
+                            <p class="my-3">
+                                <i class="fa-solid fa-user-tie fa-3x text-primary"></i>
+                            </p>
+                            <h3 class="my-2">Master Chefs</h3>
+                            <p class="mt-4 mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, ea!</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mt-3">
+                        <div class="card text-center shadow-lg service-card" id="guru1">
+                            <p class="my-3">
+                                <i class="fa-solid fa-utensils fa-3x text-primary"></i>
+                            </p>
+                            <h3 class="my-2">Quality Foods</h3>
+                            <p class="mt-4 mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, ea!</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mt-3">
+                        <div class="card text-center shadow-lg service-card " id="guru1">
+                            <p class="my-3">
+                                <i class="fa-solid fa-shopping-cart fa-3x text-primary"></i>
+                            </p>
+                            <h3 class="my-2">Online Order</h3>
+                            <p class="mt-4 mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, ea!</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mt-3">
+                        <div class="card text-center shadow-lg service-card" id="guru1">
+                            <p class="my-3">
+                                <i class="fa-solid fa-headset fa-3x text-primary"></i>
+                            </p>
+                            <h3 class="my-2">24/7 Service</h3>
+                            <p class="mt-4 mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, ea!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- services section ends here -->
+
+    <!-- menu section starts here -->
+    <section class="menu bg-dark" id="menu">
+        <div class="container mt-5 pb-5">
+            <h2 class="text-center my-5 pt-5 text-white">Most Popular Items</h2>
+            <p class="text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit quidem ullam inventore sequi corrupti neque nobis distinctio iusto natus? Ipsa minima eveniet impedit. Aspernatur numquam iure libero recusandae aliquam! Obcaecati deserunt corrupti vel! Suscipit, consectetur culpa? Sint, sapiente eveniet vel saepe minima maiores sit, quos repellat minus ex, aperiam explicabo?</p>
+            <div class="row">
+                <!--<div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="card shadow-lg  my-2">
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-lg-2">
+                                <img src="./assets/chicken-biryani.webp" alt="chicken burger" class="d-block w-100">
+                            </div>
+                            <div class="col-lg-8">
+                                <h3 class="mt-4">Chicken Burger <i class="fas fa-drumstick-bite text-danger"></i></h3>
+                                
+                                <hr>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto, vitae!</p>
+                            </div>
+                            <div class="col-lg-2">
+                                <p class="mt-4 text-primary fw-bold fs-4 me-2">$350</p>
+                            </div>
+                        </div>
+                    </div> 
+                </div> -->
+                <div class="col-lg-6">
+                    <div class="card shadow-lg my-2">
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-lg-2">
+                                <img src="./assets/chicke-berger.webp" alt="menu1" class="img-fluid d-block w-100">
+                            </div>
+                            <div class="col-lg-8">
+                                <h3 class="mt-4">Chicken Burger <i class="fas fa-drumstick-bite text-danger"></i></h3><hr>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto, vitae!</p>
+                            </div>
+                            <div class="col-lg-2">
+                                <p class="mt-4 text-primary fw-bold fs-4 me-2">$600</p>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="col-lg-6">
+                    <div class="card shadow-lg my-2">
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-lg-2">
+                                <img src="./assets/paneer-biryani.jpg" alt="" class="img-fluid d-block w-100">
+                            </div>
+                            <div class="col-lg-8">
+                                <h3 class="mt-4">Panner Briyani <i class="fas fa-leaf text-success"></i></h3><hr>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto, vitae!</p>
+                            </div>
+                            <div class="col-lg-2">
+                                <p class="mt-4 text-primary fw-bold fs-4 me-2">$600</p>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="col-lg-6">
+                    <div class="card shadow-lg my-2">
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-lg-2">
+                                <img src="./assets/mutton-biryani.png" alt="" class="img-fluid d-block w-100">
+                            </div>
+                            <div class="col-lg-8">
+                                <h3 class="mt-4">Mutton Briyani <i class="fas fa-drumstick-bite text-danger"></i></h3><hr>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto, vitae!</p>
+                            </div>
+                            <div class="col-lg-2">
+                                <p class="mt-4 text-primary fw-bold fs-4 me-2">$1600</p>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="col-lg-6">
+                    <div class="card shadow-lg my-2">
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-lg-2">
+                                <img src="./assets/paneer-thika.png" alt="" class="img-fluid d-block w-100">
+                            </div>
+                            <div class="col-lg-8">
+                                <h3 class="mt-4">Panner Tikka <i class="fas fa-leaf text-success"></i></h3><hr>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto, vitae!</p>
+                            </div>
+                            <div class="col-lg-2">
+                                <p class="mt-4 text-primary fw-bold fs-4 me-2">$500</p>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="col-lg-6">
+                    <div class="card shadow-lg my-2">
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-lg-2">
+                                <img src="./assets/chicken-biryani.webp" alt="" class="img-fluid d-block w-100">
+                            </div>
+                            <div class="col-lg-8">
+                                <h3 class="mt-4">Chicken Briyani <i class="fas fa-drumstick-bite text-danger"></i></h3><hr>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto, vitae!</p>
+                            </div>
+                            <div class="col-lg-2">
+                                <p class="mt-4 text-primary fw-bold fs-4 me-2" >$1300</p>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="col-lg-6">
+                    <div class="card shadow-lg my-2">
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-lg-2">
+                                <img src="./assets/sambar-rice.jpg" alt="" class="img-fluid d-block w-100">
+                            </div>
+                            <div class="col-lg-8">
+                                <h3 class="mt-4">Sambar Rice <i class="fas fa-leaf text-success"></i></h3><hr>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto, vitae!</p>
+                            </div>
+                            <div class="col-lg-2">
+                                <p class="mt-4 text-primary fw-bold fs-4 me-2">$250</p>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- menu section ends here -->
+
+    <!-- contact section starts here -->
+    <section class="contact my-5" id="book-a-table">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <iframe width="560" height="330" src="https://www.youtube.com/embed/cWJ9KYqWVqY?si=C4UOXradtWhHvpZC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+
+                <div class="col-lg-6">
+                    <h2 class="text-center">Book A Table Online</h2>
+                        <div class="row g-3 align-items-center align-content-center mt-5">
+                            
+                            <div class="col">
+                                <input type="text" name="name" 
+                                placeholder="Your Name"
+                                class="form-control" aria-describedby="passwordHelpInline">
+                            
+                            </div>  
+                            <div class="col">
+                                <input type="password" name="password"
+                                placeholder="Your Password"
+                                class="form-control" aria-describedby="passwordHelpInline">
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center my-2">
+                            
+                            <div class="col">
+                                <input type="datetime-local" name="date" 
+                                placeholder="Your Name"
+                                class="form-control" aria-describedby="passwordHelpInline">
+                            
+                            </div>  
+                            <div class="col">
+                                <select name="No.of people" id="" class="form-control">
+                                    <option value="People1">People1</option>
+                                    <option value="People2">People2</option>
+                                    <option value="People3">People3</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col my-4">
+                            <input type="text" name="special request" placeholder="special request"
+                            class="form-control">
+                        </div>
+                        <div class="col">
+                            <button class="btn btn-outline-warning btn-lg">BOOK NOW</button>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </div>
+
+    </section>
+<!-- contact section ends here -->
+
+<!-- master chef section starts here -->
+    <section class="master-chefs bg-dark text-white" id="chefs">
+        <div class="container my-5 pb-5">
+            <h2 class="text-center my-5 pt-5 fw-bold">Our Master Chefs</h2>
+            <p class="text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit quidem ullam inventore sequi corrupti neque nobis distinctio iusto natus? Ipsa minima eveniet impedit. Aspernatur numquam iure libero recusandae aliquam! Obcaecati deserunt corrupti vel! Suscipit, consectetur culpa? Sint, sapiente eveniet vel saepe minima maiores sit, quos repellat minus ex, aperiam explicabo?</p>
+            <div class="row text-dark" >
+                <div class="col-lg-3 text-center mt-3" >
+                    <div class="card shadow-lg p-4" id="guru1">
+                        <img src="./assets/chefs-1.jpg" alt="chef1" class="rounded-circle">
+                        <h5 class="mt-4">Michale Niwan</h5>
+                        <p class="dance-font">Master Chef</p>
+                        <p class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, blanditiis!</p>
+                        <div class="icons">
+                            <i class="fab fa-twitter text-info fa-2x"></i>
+                            <i class="fab fa-youtube text-danger fa-2x"></i>
+                            <i class="fab fa-instagram text-warning fa-2x"></i>
+                            <i class="fab fa-facebook text-info fa-2x"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 text-center mt-3">
+                    <div class="card shadow-lg p-4" id="guru1">
+                        <img src="./assets/chefs-2.jpg" alt="chef2" class="rounded-circle">
+                        <h5 class="mt-4">Anna Niwan</h5>
+                        <p class="dance-font">Master Chef</p>
+                        <p class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, blanditiis!</p>
+                        <div class="icons">
+                            <i class="fab fa-twitter text-info fa-2x"></i>
+                            <i class="fab fa-youtube text-danger fa-2x"></i>
+                            <i class="fab fa-instagram text-warning fa-2x"></i>
+                            <i class="fab fa-facebook text-info fa-2x"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 text-center mt-3">
+                    <div class="card shadow-lg p-4" id="guru1">
+                        <img src="./assets/chefs-3.jpg" alt="chef3" class="rounded-circle">
+                        <h5 class="mt-4">Jake Smith</h5>
+                        <p class="dance-font">Master Chef</p>
+                        <p class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, blanditiis!</p>
+                        <div class="icons">
+                            <i class="fab fa-twitter text-info fa-2x"></i>
+                            <i class="fab fa-youtube text-danger fa-2x"></i>
+                            <i class="fab fa-instagram text-warning fa-2x"></i>
+                            <i class="fab fa-facebook text-info fa-2x"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 text-center mt-3">
+                    <div class="card shadow-lg p-4" id="guru1">
+                        <img src="./assets/chefs-4.jpg" alt="chef4" class="rounded-circle">
+                        <h5 class="mt-4">John Doe</h5>
+                        <p class="dance-font">Master Chef</p>
+                        <p class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, blanditiis!</p>
+                        <div class="icons">
+                            <i class="fab fa-twitter text-info fa-2x"></i>
+                            <i class="fab fa-youtube text-danger fa-2x"></i>
+                            <i class="fab fa-instagram text-warning fa-2x"></i>
+                            <i class="fab fa-facebook text-info fa-2x"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- master chef section ends here -->
+
+    <!-- footer starts here -->
+    <footer>
+        <div class="container" id="contact">
+            <div class="row">
+                <div class="col-lg-3">
+                    <p class="ms-4 dance-font text-primary fw-bold display-6">Company</p>
+                    <ul>
+                        <li><i class="fa fa-chevron-right me-2"></i>About Us</li>
+                        <li><i class="fa fa-chevron-right me-2"></i>Contact Us</li>
+                        <li><i class="fa fa-chevron-right me-2"></i>Reservation</li>
+                        <li><i class="fa fa-chevron-right me-2"></i>Privacy Policy</li>
+                        <li><i class="fa fa-chevron-right me-2"></i>Terms & Conditions</li>
+                    </ul>  
+                </div>
+                <div class="col-lg-3">
+                    <p class="ms-4 dance-font text-primary fw-bold display-6">Contact</p>
+                    <ul>
+                        <li class="py-1"><i class="fa fa-map-marker me-2 text-primary"></i>123 Street, New York, USA</li>
+                        <li class="py-1"><i class="fa-solid fa-phone me-2 text-primary"></i>+012 345 67890</li>
+                        <li class="py-1"><i class="fa fa-envelope me-2 text-primary"></i>mail@domain.com</li>
+                        <!-- <ul class="d-flex justify-content-space-around">
+                            <li class="fab fa-facebook"></li>
+                            <li class="fab fa-facebook"></li>
+                            <li class="fab fa-facebook"></li>
+                            <li class="fab fa-facebook"></li>
+                        </ul> -->
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <p class="ms-4 dance-font text-primary fw-bold display-6">Opening</p>
+                    <ul>
+                        <li>Monday - Saturday</li>
+                        <li>09AM - 09PM</li>
+                        <li>Sunday</li>
+                        <li>10AM-08PM</li>
+                        
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <p class="ms-3 dance-font text-primary fw-bold display-6">News Letter</p>
+                    <p class="">Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                    <div class="row">
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Your Email">
+                        </div>
+                        <div class="col">
+                            <button class="btn btn-primary">Signup</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <p> &#169; Designed & Developed By Guruprasad. All Rights Reserved</p>
+        </div>
+    </footer>
+<!-- footer ends here -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

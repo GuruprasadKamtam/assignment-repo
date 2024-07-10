@@ -1,0 +1,85 @@
+
+.menu img{
+    width: 100%;
+    object-fit: cover;
+}
+.dance-font{
+    font-family: "Dancing Script", cursive;
+
+}
+.navbar-brand{
+    font-family: "Dancing Script", cursive;
+}
+.text-primary{
+    color: #FEA116 !important;;   
+}
+.hero-heading{
+    font-family: "Nunito Sans", sans-serif;
+}
+iframe{
+    width: 100%;
+    object-fit: cover;
+}
+
+
+ul li{
+    list-style-type: none;
+}
+.navbar ul li a{
+    text-transform: uppercase;
+    
+}
+.navbar ul li a:hover{
+    color: #FEA116;
+}
+.btn-primary{
+    background-color: #FEA116;
+}
+#table:hover{
+    border: 1px solid #FEA116;
+    background-color: white;
+}
+
+.hero-img{
+    animation: rotate 20s  infinite;
+    animation-delay: 0s;
+    animation-direction: normal;
+}
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}
+
+.hero-heading{
+    animation: left-right 2s ease-in ;
+}
+@keyframes left-right {
+    from{
+        transform: translateX(-600px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+    
+}
+#guru1:hover{
+    animation-name: slideUp;
+    animation-duration: 5s;
+    animation-iteration-count: 0s;
+    cursor: pointer;
+}
+@keyframes slideUp {
+    from{
+        transform: translateY(-100px);
+    }
+    to{
+        transform: translateY(0px);
+    }
+    
+}   
+    
