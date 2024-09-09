@@ -1,0 +1,50 @@
+{
+    "contacts" : [
+    {
+        "id" : "1",
+        "name" : "Amma Bhagwan",
+        "company" : "youtube",
+        "email" : "ammma@gmail.com",
+        "title" : "youtuber",
+        "mobile" : "112123",
+        "photo" : "https://icons.veryicon.com/png/o/miscellaneous/two-color-icon-library/user-286.png",
+        "groupId" : "3"
+    },
+    {
+        "id" : "2",
+        "name" : " Bhagwan",
+        "company" : "youtube",
+        "email" : "Bhagwan@gmail.com",
+        "title" : "youtuber",
+        "mobile" : "112123",
+        "photo" : "https://www.iconpacks.net/icons/1/free-user-group-icon-296-thumb.png",
+        "groupId" : "3"
+    }
+],
+"groups" : [
+    {
+        "id" : "1",
+        "name" : "Colleague"
+    },
+    {
+        "id" : "2",
+        "name" : "Friend"
+    },
+    {
+        "id" : "3",
+        "name" : "Family"
+    },
+    {
+        "id" : "4",
+        "name" : "Service"
+    },
+    {
+        "id" : "5",
+        "name" : "Community"
+    },
+    {
+        "id" : "6",
+        "name" : "Social"
+    }
+]
+}
